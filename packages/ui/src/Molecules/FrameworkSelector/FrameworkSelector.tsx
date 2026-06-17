@@ -19,6 +19,7 @@ import { Dropdown, DropdownItem } from "../../Atoms/Dropdown/Dropdown";
 import { TwentyOneCFRPart11 } from "../../Atoms/Frameworks/21CFRPart11";
 import { CCPA } from "../../Atoms/Frameworks/CCPA";
 import { DORA } from "../../Atoms/Frameworks/DORA";
+import { FERPA } from "../../Atoms/Frameworks/FERPA";
 import { GDPR } from "../../Atoms/Frameworks/GDPR";
 import { HDS } from "../../Atoms/Frameworks/HDS";
 import { HIPAA } from "../../Atoms/Frameworks/HIPAA";
@@ -53,6 +54,12 @@ const availableFrameworks = [
     name: "CCPA",
     logo: <CCPA className="size-8" />,
     description: "California Consumer Privacy Act",
+  },
+  {
+    id: "FERPA",
+    name: "FERPA",
+    logo: <FERPA className="size-8" />,
+    description: "Family Educational Rights and Privacy Act",
   },
   {
     id: "NIS2",
